@@ -44,14 +44,15 @@
                 </nav>
             </div>
 
-            <div class="hidden lg:block relative">
-                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400">
+            <div class="hidden lg:block relative ml-20">
+
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-5 h-5 text-gray-400">
                 </i>
 
-                <input type="text" placeholder="     Search for products..."
-                    class="bg-gray-100 rounded-full px-5 py-3 w-full lg:w-[500px] outline-none pl-10" />
-            </div>
+                <input type="text" placeholder="Search for products..."
+                    class="bg-gray-100 rounded-full px-5 py-3 w-[1000px] outline-none pl-12" />
 
+            </div>
             <div class="flex items-center gap-4">
                 <i data-lucide="shopping-cart"></i>
                 <i data-lucide="user"></i>
@@ -459,16 +460,24 @@
                     </div>
 
 
-                    <div class="flex items-center gap-2">
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold">1</button>
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold">2</button>
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold hidden ">3</button>
+                    <div class="flex items-center gap-7">
+                        <button class="w-10 h-10 bg-gray-100 rounded-lg font-semibold">1</button>
+                        <button class="w-10 h-10 bg-gray-10 rounded-lg font-semibold">2</button>
+
+                        <button
+                            class="hidden sm:flex w-10 h-10 bg-gray-10 rounded-lg font-semibold items-center justify-center">
+                            3
+                        </button>
 
                         <span>...</span>
 
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold hidden ">8</button>
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold">9</button>
-                        <button class="w-10 h-10 bg-gray-100 rounded-ig font-semibold">10</button>
+                        <button
+                            class="hidden sm:flex w-10 h-10 bg-gray-10 rounded-lg font-semibold items-center justify-center">
+                            8
+                        </button>
+
+                        <button class="w-10 h-10 bg-gray-10 rounded-lg font-semibold">9</button>
+                        <button class="w-10 h-10 bg-gray-10 rounded-lg font-semibold">10</button>
                     </div>
                     <div>
                         <button class="flex items-center gap-2 px-4 py-2 border rounded-2xl ">
@@ -480,7 +489,7 @@
 
             <div class="relative flex flex-col max-w-full overflow-x-hidden">
 
-                ```
+
                 <div class="flex flex-col items-center">
 
                     <!-- Newsletter -->
@@ -515,7 +524,7 @@
                             <div class="flex flex-col">
 
                                 <div class="hero text-[32px]">
-                                    <h1>SHOPIDO.CO</h1>
+                                    <h1 class="text-3xl font-extrabold" >SHOPIDO.CO</h1>
                                 </div>
 
                                 <p class="w-[248px] mt-[25px] text-[13px]">
@@ -550,43 +559,43 @@
                             </div>
 
                             <!-- Company -->
-                         <div class="grid grid-cols-2 gap-8 lg:grid-cols-4 "    >
-                            <div class="flex flex-col gap-3">
-                                <h1>COMPANY</h1>
-                                <p class="text-gray-400">About</p>
-                                <p class="text-gray-400">Feature</p>
-                                <p class="text-gray-400">Works</p>
-                                <p class="text-gray-400">Career</p>
-                            </div>
+                            <div class="grid grid-cols-2 gap-8 lg:grid-cols-4 ">
+                                <div class="flex flex-col gap-3">
+                                    <h1>COMPANY</h1>
+                                    <p class="text-gray-400">About</p>
+                                    <p class="text-gray-400">Feature</p>
+                                    <p class="text-gray-400">Works</p>
+                                    <p class="text-gray-400">Career</p>
+                                </div>
 
-                            <!-- Help -->
-                            <div class="flex flex-col gap-3">
-                                <h1>HELP</h1>
-                                <p class="text-gray-400">Customer Support</p>
-                                <p class="text-gray-400">Delivery Details</p>
-                                <p class="text-gray-400">Terms & Conditions</p>
-                                <p class="text-gray-400">Privacy Policy</p>
-                            </div>
+                                <!-- Help -->
+                                <div class="flex flex-col gap-3">
+                                    <h1>HELP</h1>
+                                    <p class="text-gray-400">Customer Support</p>
+                                    <p class="text-gray-400">Delivery Details</p>
+                                    <p class="text-gray-400">Terms & Conditions</p>
+                                    <p class="text-gray-400">Privacy Policy</p>
+                                </div>
 
-                            <!-- FAQ -->
-                            <div class="flex flex-col gap-3">
-                                <h1>FAQ</h1>
-                                <p class="text-gray-400">Account</p>
-                                <p class="text-gray-400">Manage Deliveries</p>
-                                <p class="text-gray-400">Orders</p>
-                                <p class="text-gray-400">Payments</p>
-                            </div>
+                                <!-- FAQ -->
+                                <div class="flex flex-col gap-3">
+                                    <h1>FAQ</h1>
+                                    <p class="text-gray-400">Account</p>
+                                    <p class="text-gray-400">Manage Deliveries</p>
+                                    <p class="text-gray-400">Orders</p>
+                                    <p class="text-gray-400">Payments</p>
+                                </div>
 
-                            <!-- Resources -->
-                            <div class="flex flex-col gap-3">
-                                <h1>RESOURCES</h1>
-                                <p class="text-gray-400">Free eBooks</p>
-                                <p class="text-gray-400">Development Tutorial</p>
-                                <p class="text-gray-400">How to - Blog</p>
-                                <p class="text-gray-400">Youtube Playlist</p>
-                            </div>
+                                <!-- Resources -->
+                                <div class="flex flex-col gap-3">
+                                    <h1>RESOURCES</h1>
+                                    <p class="text-gray-400">Free eBooks</p>
+                                    <p class="text-gray-400">Development Tutorial</p>
+                                    <p class="text-gray-400">How to - Blog</p>
+                                    <p class="text-gray-400">Youtube Playlist</p>
+                                </div>
 
-                         </div>
+                            </div>
 
                         </div>
 
